@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.button {
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 10px;
+  width: 10%;
+  height: 10dvh;
+}
+
+.button:hover {
+  background-color: #45a9f7;
+}
+
+.h1 {
+  background: linear-gradient(to right, #f4f745, #27ce0d);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
